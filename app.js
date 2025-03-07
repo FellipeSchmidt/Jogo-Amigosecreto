@@ -4,7 +4,7 @@ let sorteados =[];
 
 function adicionarAmigo() {
   const input = document.getElementById("amigo");
-  const nomeAmigo = input.value.trim();
+  const nome = input.value.trim();
 
   if (nome === "" || !isNaN(nome)) {
   alert("Por favor, insira um nome válido");
